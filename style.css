@@ -1,0 +1,90 @@
+body{
+  margin:0;
+  font-family: Arial;
+  background:#f5f5f5;
+}
+
+header{
+  background:black;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-weight:bold;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-around;
+  background:#222;
+}
+
+.nav button{
+  flex:1;
+  padding:10px;
+  border:none;
+  color:white;
+  background:#222;
+  cursor:pointer;
+}
+
+.nav button:hover{
+  background:#444;
+}
+
+.container{
+  max-width:600px;
+  margin:auto;
+  padding:10px;
+}
+
+.box{
+  background:white;
+  padding:10px;
+  margin:10px 0;
+  border-radius:10px;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin:5px 0;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:black;
+  color:white;
+  border:none;
+}
+
+#feed, #explore{
+  column-count:2;
+  column-gap:10px;
+}
+
+.card{
+  background:white;
+  margin-bottom:10px;
+  border-radius:10px;
+  overflow:hidden;
+  break-inside:avoid;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+}
+
+.content{
+  padding:10px;
+}
+
+.like{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px;
+  margin:5px;
+  border-radius:5px;
+}
