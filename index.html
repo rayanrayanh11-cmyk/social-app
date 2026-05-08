@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Pro Mix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  🌐 Social Pro Mix
+</header>
+
+<div class="nav">
+  <button onclick="showFeed()">Feed</button>
+  <button onclick="showExplore()">Explore</button>
+  <button onclick="showProfile()">Profile</button>
+</div>
+
+<div class="container">
+
+  <!-- LOGIN -->
+  <div class="box">
+    <input id="user" placeholder="اسم المستخدم">
+    <button id="loginBtn">دخول</button>
+  </div>
+
+  <!-- POST -->
+  <div class="box">
+    <input id="img" placeholder="رابط الصورة">
+    <input id="caption" placeholder="وصف">
+    <button id="postBtn">نشر</button>
+  </div>
+
+  <!-- SECTIONS -->
+  <div id="feed"></div>
+  <div id="explore"></div>
+  <div id="profile"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
